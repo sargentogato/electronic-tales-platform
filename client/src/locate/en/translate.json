@@ -1,6 +1,7 @@
 {
   "common": {
     "secondaryNavbar": {
+      "goBackHome": "Return <br /> to the manor",
       "joinUs": "Join us"
     },
     "lab": {
@@ -12,11 +13,11 @@
       "categoryTitle": "Too late to ask",
       "title": "The tinder of dev 🔥",
       "buttons": {
-        "iAlreadyKnow": "I already know",
+        "iAlreadyKnow": "I already know this",
         "iWantToKnow": "I want to know"
       },
       "noCardsLeftMessage": {
-        "title": "There is no more question for now.",
+        "title": "There are no more questions to match in your region at the moment.",
         "text": "✨&nbsp; Subscribe to the premium offer to turn off geolocation and match with questions from around the world &nbsp;✨<br /><br />Just kidding.<br /><span className='small-text'>But seriously, maybe you should turn off your geolocation if you want to save battery. That said, you do what you want with your phone. And it's convenient to have a GPS, anyway. I remember this time I had to go visit my aunt Léonie in the Perche, and... Anyway.</span>",
         "buttons": {
           "suggest": "I'm helping the community, I'm suggesting a new question."
@@ -24,7 +25,7 @@
       },
       "suggestTooLateToAsk": {
         "title": "I've always wondered ...",
-        "description": "Do you have a question that you no longer dare to ask, because you're supposed to already know the answer?<br /><br />Share it!",
+        "description": "Do you have a question that you don't dare to ask, because you're supposed to already know the answer?<br /><br />Don't hesitate anymore and share it.",
         "question": {
           "label": "Your question (mandatory):",
           "placeholder": "Write your question here."
@@ -41,17 +42,14 @@
           "label": "A concrete short example, to finish? Go:",
           "placeholder": "Example: To display \"I love Electronic Tales on my screen\", I can type..."
         },
-        "name": {
-          "label": "Your name?",
-          "placeholder": "Captain Anonymouse"
-        },
+        "name": { "label": "Your name?", "placeholder": "Captain Anonymouse" },
         "choice": {
           "iWantETToAnswer": "I want the Electronic Tales team to answer",
           "iWantToSuggestAnAnswer": "I want to suggest an answer"
         },
         "notifications": {
           "success": "It's in the box 🥡 Your suggestion is traveling through Electronic Tales pipes and will be published soon. Thank you.",
-          "failure": "Oops, it looks like there's a grumwater in our pipes... Can you try again? If it still doesn't work, contact the Electronic Tales team: contact@electronictales.io - We would be very grateful to you 🙏"
+          "failure": "Oops, it looks like there's a lumps in our pipes... Could you try again? If it still doesn't work, contact the Electronic Tales team: contact@electronictales.io - We would be very grateful to you 🙏"
         }
       }
     },
@@ -66,10 +64,7 @@
           "gloop": "Gloop",
           "crisp": "Crisp"
         },
-        "genders": {
-          "female": "Feminine",
-          "male": "Male"
-        },
+        "genders": { "female": "Feminine", "male": "Male" },
         "names": {
           "burger": "Burger",
           "coffee": "Coffee",
@@ -79,9 +74,7 @@
       },
       "lessThanAMinute": "Less than 1 minute"
     },
-    "buttons": {
-      "share": "Share"
-    },
+    "buttons": { "share": "Share" },
     "errors": {
       "pleaseReport": "If you have two minutes, you can tell us about the problem you encountered (or what your favorite brand of potato chips is, we're always curious on this topic) on our <a href='https://join.slack.com/t/electronictales/shared_invite/zt-kox8itw1-tveUHRe8QSTtjs0Bb172BA' target='_blank' rel='noopener noreferrer'><span>Slack</span>&nbsp;🙏</a>",
       "noArticle": {
@@ -91,14 +84,6 @@
     }
   },
   "home": {
-    "presentation": {
-      "title": "Developer,<br/> have you ever felt out of place&nbsp;?",
-      "text": "Our goal is to help tech minorities (women, queer, racialized, disabled, seniors...), who are often coming from bootcamps or self-taught, bridge the technical and cultural gap with developers who have followed classical paths (engineering schools, universities...).",
-      "buttons": {
-        "knowMore": "Read more 📚",
-        "enterPlatform": "Enter platform 🗝️"
-      }
-    },
     "safeSpace": {
       "title": "Let's smash the impostor syndrome together.",
       "description": "As a junior developer, you're suffering from the impostor syndrome?<br /><br />At Electronic Tales, we believe it doesn't have to be that way.",
@@ -121,49 +106,13 @@
       "alternativeCallToActionText": "Lower&nbsp;?",
       "alert": "Come on, what did you expect? The Nine Circles of Hell? The design department didn't have enough budget for that."
     },
-    "desktopVersion": {
-      "presentation": {
-        "title": "As a junior developer, have you ever found it difficult to...",
-        "question1": "Feel legitimate in the tech world?",
-        "question2": "Assess your real level?",
-        "question3": "Express your insecurities at work?",
-        "question4": "Get motivated to keep developing your skills?",
-        "button": "Grumpf, yes!"
-      },
-      "tracksTabs": {
-        "heading": "Our tracks",
-        "worlds": {
-          "id1": {
-            "text": "🐞&nbsp;Debug.<br/>🔬&nbsp;Learn how to read other people’s code.<br/>⛱️&nbsp;Automate.<br/>👔&nbsp;Survive job interviews.<br/>⌨️&nbsp;Write clean code.<br/>✊&nbsp;Munch crisps without dropping crumbs on your keyboard.",
-            "textMobile": "Debug🐞&nbsp;Automate&nbsp;⛱️ <br/>Learn how to read other people’s code&nbsp;🔬<br/>Survive job interviews&nbsp;👔<br/>⌨️&nbsp;Write clean code<br/>Munch crisps without dropping crumbs on your keyboard&nbsp;✊",
-            "baseline": "Learn to program between the lines."
-          },
-          "id2": {
-            "text": "💡&nbsp;Discover how a computer works.<br/>🔨&nbsp;Build your own machine.<br/>🎇&nbsp;Learn to speak fluent hardware and to solder without getting your fingers burned.",
-            "textMobile": "Discover how a computer works&nbsp;💡<br/>Build your own machine&nbsp;🔨<br/>Learn to speak fluent hardware and to solder without getting your fingers burned&nbsp;🎇",
-            "baseline": "Dive into the sunken world of computer science."
-          },
-          "id3": {
-            "text": "42&nbsp;🔮 Ada Lovelace&nbsp;👩‍🔧<br/> St-Isidore&nbsp;😇 Klingon&nbsp;🚀<br/> Easter eggs&nbsp;🐰 Backdoors&nbsp🚪🚶<br/> Star\u00A0+\u00A0gate/trek/wars&nbsp;🔭❓127.0.0.1🏡<br/> ...&nbsp;bored of feeling lost among coffee break Chit Chats?",
-            "textMobile": "42&nbsp;🔮 Ada Lovelace&nbsp;👩‍🔧<br/> St-Isidore&nbsp;😇 Klingon&nbsp;🚀<br/> Easter eggs&nbsp;🐰 Backdoors&nbsp🚪🚶<br/> Star\u00A0+\u00A0gate/trek/wars&nbsp;🔭❓127.0.0.1🏡<br/> ...&nbsp;bored of feeling lost among coffee break Chit Chats?",
-            "baseline": "Absorb the myths and legends of the bits generation."
-          },
-          "safeSpace": {
-            "baseline": "Let's talk about it!"
-          }
-        }
-      }
-    },
-    "common": {
-      "enterButtonText": "Enter",
-      "grumpftext": "Grumpf, yes!"
-    }
+    "common": { "enterButtonText": "Enter" }
   },
   "safeSpace": {
     "title": "Safe space",
     "miniNavbar": {
       "why": "Why",
-      "microExperiences": "Micro-experiences",
+      "microExperiences": "Micro-lived",
       "ourSlack": "Our Slack"
     },
     "why": {
@@ -223,11 +172,15 @@
   },
   "imaginarium": {
     "title": "Imaginarium",
-    "swipeDoor": "Still have questions about computer culture for which you should already know the answers?"
+    "swipeDoor": "Still have questions about computer culture for which you should already know the answers?",
+    "roadmap": {
+      "categoryTitle": "Roadmaps",
+      "description": "Lost in the world of dev? Our maps are there to guide you.",
+      "cleanCode": { "title": "Coder proper: the databases" }
+    }
   },
   "ancientWorld": {
     "title": "Ancient World",
-    "swipeDoor": "Still have questions about computer science fundamentals for which you should already know the answers?",
     "temp": {
       "workinProgress": "This world is still in manufacturing 😅",
       "comeBackLater": "To learn about the nuts and bolt of machines with Mom Cobol (but who is that? Suspense!), come back a little later.",
